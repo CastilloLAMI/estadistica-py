@@ -63,17 +63,17 @@ def main():
 
     # Según la opción, se llama a la función correspondiente
     if opcion == "1":
-        print("Resultado:", suma(num1, num2))
+        print("Resultaditoo:", suma(num1, num2))
     elif opcion == "2":
-        print("Resultado:", resta(num1, num2))
+        print("Resultaditoo:", resta(num1, num2))
     elif opcion == "3":
-        print("Resultado:", multiplicacion(num1, num2))
+        print("Resultaditoo:", multiplicacion(num1, num2))
     elif opcion == "4":
         # Control de división entre cero
         if num2 == 0:
             print("Error: no se puede dividir entre cero.")
         else:
-            print("Resultado:", division(num1, num2))
+            print("Resultaditoo:", division(num1, num2))
     else:
         # Opción que no existe
         print("Error: opcion no valida. Debe elegir entre 1 y 4.")
@@ -81,6 +81,7 @@ def main():
 
 # ------------------------------------------------------------
 # EJECUCIÓN
+# Mejoras
 # ------------------------------------------------------------
 
 if __name__ == "__main__":
